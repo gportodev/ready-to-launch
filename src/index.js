@@ -33,7 +33,6 @@ export default class SvgExample extends React.Component {
               x="1"
               y="0"
               width="100%"
-              // height="90%"
               preserveAspectRatio="xMidYMid slice"
               opacity="0.1"
               href={dev}

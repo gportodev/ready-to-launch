@@ -1,10 +1,15 @@
 import React from 'react';
-import {View} from 'react-native';
+import {StatusBar} from 'react-native';
 
 import Src from './src/index';
 
 const prsvg = () => {
-  return <Src />;
+  return (
+    <>
+      <StatusBar barStyle="light-content" backgroundColor="#400080" />
+      <Src />
+    </>
+  );
 };
 
 export default prsvg;
